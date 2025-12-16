@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Front end</title>
+    <link rel="stylesheet" href="../styles/style-imoveis.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/imoveis-select.css">
+    <script src="../scripts/hamburger-nav.js" defer></script>
+    <script src="../scripts/imoveis-select/galpao1.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- INICIO NAVBAR -->
+    <nav class="navbar">
+        <a href="../index.html"><img id="img-logo" src="../img/logo.jpg" alt="logo"></a>
+
+        <button class="btn-hamb">
+            <span class="linha-hamburguer"></span>
+            <span class="linha-hamburguer"></span>
+            <span class="linha-hamburguer"></span>
+        </button>
+
+        <div class="nav-links">
+            <ul id="ul-nav-links">
+                <li><a id="btn-venda-nav" href="../index.html#venda">Comprar</a></li>
+                <li><a id="btn-aluga-nav" href="../index.html#imoveis-locacao">Alugar</a></li>
+                <li><a id="btn-oportunidades-nav" href="../index.html#oportunidades">Oportunidades</a></li>
+                <li><a id="btn-corretor-nav" href="../index.html#corretores">Nossos corretores</a></li>
+                <li><a id="btn-financiamento-nav" href="../index.html#financiamento">Simulador de financiamento</a></li>
+                <li><a id="btn-sobre-nav" href="../index.html#sobre-nos">Sobre nós</a></li>
+                <li><a id="btn-contatos-nav" href="../index.html#contatos">Contatos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- FIM NAVBAR -->
+
+    <div class="container-principal-copy">
+
+        <div class="slider-img">
+            <button class="btn-slider" id="btn-1"><img src="../img/seta-esquerda.png" alt=""></button>
+            <img class="img-principal-card-copy" src="" alt="">
+            <button class="btn-slider" id="btn-2"><img src="../img/seta-direita.png" alt=""></button>
+        </div>
+
+
+        <div class="container-infos-copy">
+            <div class="container-infos-sub">
+                <div class="descricao-copy">    
+                    <p class="tipo-imovel-copy">Galpão</p>
+                    <p class="endereco-copy">Rua Jonas Guimarães n<sup id="numero-0">o</sup> 742</p>
+                </div>
+                    
+                <p class="cod-imovel-copy">CA1564</p>
+
+                <div class="infos-copy">
+                    <div class="card-info-copy">
+                        <img class="img-info-copy" src="../img/cama.png" alt="">
+                        <p class="num-info-copy">8</p>
+                    </div>
+                    <div class="card-info-copy">
+                        <img class="img-info-copy" src="../img/chuveiro.png" alt="">
+                        <p class="num-info-copy">5</p>
+                    </div>
+                    <div class="card-info-copy">
+                        <img class="img-info-copy" src="../img/carro.png" alt="">
+                        <p class="num-info-copy">15</p>
+                    </div>
+                    <div class="card-info-copy">
+                        <img class="img-info-copy" src="../img/metro2.png" alt="">
+                        <p class="num-info-copy">2320<sup>2</sup></p>
+                    </div>
+                </div>
+                    
+                <div class="valores-copy">
+                    <h2 class="valor-copy">R$65.000,00</h2>
+                    <p id="valor-cond-copy">Cond: R$ 0,00</p>
+                </div>  
+
+                <h3 id="descricao">Descrição</h3>
+
+                <p class="texto-descricao">Excelente oportunidade para grandes operações logísticas ou industriais em Guarulhos! Este imponente galpão de 2.320m² de área construída oferece uma estrutura robusta e versátil para atender às suas necessidades.<br><br>Com um pé direito livre de 10 metros, permite alta capacidade de armazenagem vertical e flexibilidade para diversas configurações. Conta com 8 compartimentos internos que podem ser utilizados como escritórios administrativos, salas de reunião, almoxarifado, refeitório ou vestiários, garantindo o conforto e a funcionalidade para sua equipe.<br><br>A infraestrutura é complementada por 5 banheiros bem distribuídos, assegurando a higiene e praticidade. Para a logística, dispõe de 15 vagas de garagem no pátio, facilitando o estacionamento de veículos de carga e de funcionários.<br><br>Localizado em uma região estratégica de Guarulhos, com fácil acesso às principais rodovias, este galpão é a escolha ideal para empresas que buscam expandir suas operações em um espaço amplo, seguro e altamente funcional.</p>
+        </div>
+
+    </div>
+</body>
+</html>

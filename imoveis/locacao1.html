@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Front end</title>
+    <link rel="stylesheet" href="../styles/style-imoveis.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/imoveis-select.css">
+    <script src="../scripts/hamburger-nav.js" defer></script>
+    <script src="../scripts/imoveis-select/imovel-ap2.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- INICIO NAVBAR -->
+    <nav class="navbar">
+        <a href="../index.html"><img id="img-logo" src="../img/logo.jpg" alt="logo"></a>
+
+        <button class="btn-hamb">
+            <span class="linha-hamburguer"></span>
+            <span class="linha-hamburguer"></span>
+            <span class="linha-hamburguer"></span>
+        </button>
+
+        <div class="nav-links">
+            <ul id="ul-nav-links">
+                <li><a id="btn-venda-nav" href="../index.html#venda">Comprar</a></li>
+                <li><a id="btn-aluga-nav" href="../index.html#imoveis-locacao">Alugar</a></li>
+                <li><a id="btn-oportunidades-nav" href="../index.html#oportunidades">Oportunidades</a></li>
+                <li><a id="btn-corretor-nav" href="../index.html#corretores">Nossos corretores</a></li>
+                <li><a id="btn-financiamento-nav" href="../index.html#financiamento">Simulador de financiamento</a></li>
+                <li><a id="btn-sobre-nav" href="../index.html#sobre-nos">Sobre nós</a></li>
+                <li><a id="btn-contatos-nav" href="../index.html#contatos">Contatos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- FIM NAVBAR -->
+
+    <div class="container-principal-copy">
+
+        <div class="slider-img">
+            <button class="btn-slider" id="btn-1"><img src="../img/seta-esquerda.png" alt=""></button>
+            <img class="img-principal-card-copy" src="../img/imoveis/casa1/frente-casa1.jpg" alt="">
+            <button class="btn-slider" id="btn-2"><img src="../img/seta-direita.png" alt=""></button>
+        </div>
+
+
+        <div class="container-infos-copy">
+            <div class="container-infos-sub">
+                <div class="descricao-copy">    
+                    <p class="tipo-imovel-copy">Apartamento</p>
+                    <p class="endereco-copy">Rua Brasília n<sup id="numero-0">o</sup> 1430</p>
+                </div>
+                    
+                <p class="cod-imovel-copy">AP2284</p>
+
+                <div class="infos-copy">
+                    <div class="card-info-copy">
+                        <img class="img-info-copy" src="../img/cama.png" alt="">
+                        <p class="num-info-copy">3</p>
+                    </div>
+                    <div class="card-info-copy">
+                        <img class="img-info-copy" src="../img/chuveiro.png" alt="">
+                        <p class="num-info-copy">2</p>
+                    </div>
+                    <div class="card-info-copy">
+                        <img class="img-info-copy" src="../img/carro.png" alt="">
+                        <p class="num-info-copy">2</p>
+                    </div>
+                    <div class="card-info-copy">
+                        <img class="img-info-copy" src="../img/metro2.png" alt="">
+                        <p class="num-info-copy">140m<sup>2</sup></p>
+                    </div>
+                </div>
+                    
+                <div class="valores-copy">
+                    <h2 class="valor-copy">R$5.200,00</h2>
+                    <p id="valor-cond-copy">Cond: R$ 620,00</p>
+                </div>  
+
+                <h3 id="descricao">Descrição</h3>
+
+                <p class="texto-descricao">Aqui está uma descrição completa para o apartamento, incluindo todos os detalhes que você forneceu. Sim, a suíte já tem um banheiro privativo, então o total de banheiros do apartamento seria 2 (um da suíte e um social/comum).<br><br>Apartamento Espaçoso e Exclusivo com Lazer Completo em Guarulhos.Descubra a combinação perfeita de espaço, conforto e lazer neste magnífico apartamento de 140m², localizado em uma das melhores regiões de Guarulhos.<br><br>Este imóvel impecável oferece 3 dormitórios, sendo 1 suíte privativa, garantindo privacidade e bem-estar para toda a família. Além disso, conta com 2 banheiros modernos e bem equipados.<br><br>Para sua total comodidade, o apartamento dispõe de 2 vagas de garagem, um grande diferencial na cidade.<br><br>O condomínio é um verdadeiro oásis de lazer, com piscinas para adultos e crianças, um completo salão de jogos e uma ampla variedade de opções de lazer para todas as idades. A localização privilegiada oferece fácil acesso a comércios, serviços e importantes vias, colocando você no centro de tudo que Guarulhos tem a oferecer.</p>
+        </div>
+
+    </div>
+</body>
+</html>

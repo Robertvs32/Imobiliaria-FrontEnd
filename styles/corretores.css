@@ -1,0 +1,59 @@
+#corretores {
+    background-color: rgb(0, 0, 59);
+    color: white;
+    padding: 10px 0 10px 15px;
+    width: 100%;
+    display: flex;
+}
+
+.container-corretores {
+    display: flex;
+    flex-direction: column;
+    background-repeat: repeat-y;
+    width: 100%;
+    align-items: center;
+    background: url(../img/corretores/fundo-corretores.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 60px;
+    padding-top: 60px;
+}
+
+#imagem-corretores {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 15px;
+    border-radius: 15%;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+#select-corretores {
+    margin-bottom: 140px;
+    width: 400px;
+    height: 40px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 1);
+    border-radius: 10px;
+    text-align: center;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+@media (max-width: 460px){
+    #imagem-corretores {
+        width: 80%;
+        height: 400px;
+    }
+
+    #select-corretores {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1245px){
+    #corretores {
+        scroll-margin-top: 94px;
+    }
+}
+

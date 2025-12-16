@@ -1,0 +1,48 @@
+#contatos {
+    background-color: rgb(0, 0, 59);
+    color: white;
+    padding: 10px 0 10px 15px;
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.container-contatos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-contato {
+    display: flex;
+    background-color: rgb(0, 0, 59);
+    color: black;
+    align-items: center;
+    left: 0;
+    margin: 5px;
+    flex: 1;
+    padding: 20px 15px 20px 10px;
+    border-radius: 10px;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 59, 1);
+    flex-basis: 300px;
+    justify-content: center;
+}
+
+.card-contato p{
+    color: white;
+}
+
+.card-contato img {
+    width: 30px;
+    margin-right: 8px;
+}
+
+@media (max-width: 1245px) {
+    #contatos {
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0 10px 0px;
+    }
+}
